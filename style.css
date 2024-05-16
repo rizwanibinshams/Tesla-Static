@@ -1,0 +1,670 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+body{
+    position: relative;
+    overflow-x: hidden;
+    box-sizing: border-box;
+    font-family: "Montserrat", sans-serif;
+}
+.logo{
+    cursor: pointer;
+}
+
+
+
+
+.nav{
+    width: 100vw;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin-left: 40px;
+}
+.center-nav{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 400px;
+}
+.center-nav ul li a{
+ 
+    color: black;
+    text-decoration: none;
+    font-weight: 590;
+    font-size: 14px;
+   
+}
+
+.center-nav ul{
+    list-style: none;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    width: 100%;
+   
+
+}
+
+.right-nav{
+    cursor: pointer;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    height: 60px;
+    margin-right: 70px;
+}
+.right-nav img{
+    height: 25px;
+    width: 39px;
+}
+.section-1{
+    background-image: url(images/1st\ tesla.jpg);
+    width: 100vw;
+    height: 100vh;
+    background-repeat: no-repeat;
+    background-size: cover;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+}
+.txt-1{
+    display: flex;
+    flex-direction: column;
+   justify-content: center;
+    align-items: center;
+    height: 48vh;
+}
+.txt-1 h1{
+    font-size: 40px;
+    font-weight: 600;
+}
+.txt-1 h4{
+    font-size: 20px;
+    font-weight: 550;
+}
+.txt-1 h6{
+    font-size: 13px;
+    font-weight: 350;
+}
+.first-button{
+    height: 52vh;
+    width: 33%;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    
+}
+.first-button button{
+    width: 244px;
+    height: 40px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    cursor: pointer;
+    border-radius: 4px;
+    border: none;
+    
+   
+}
+.b-2{
+    background: rgba(34, 34, 34, 0.65);
+    color: white;
+   
+}
+.b-1 ,.b-2{
+    margin-top: 90px;
+    font-weight: 550;
+    font-size: 14px;
+}
+.section-2{
+    background-image: url(images/second-tesla.jpg);
+    width: 100vw;
+    height: 100vh;
+    background-repeat: no-repeat;
+    background-size: cover;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+}
+.txt-2{
+    height: 70%;
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    margin-bottom: 300px;
+}
+.second-button{
+    height: 50%;
+    width: 35%;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+
+}
+.second-button button{
+    height: 40px;
+    width: 255px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border: none;
+    border-radius: 3px;
+    margin-bottom: 100px;
+    cursor: pointer;
+}
+.b-4{
+    background: rgba(34, 34, 34, 0.65);
+    color: white;
+    font-weight: 550;
+    font-size: 14px;
+   
+}
+
+.txt-2 h1{
+    font-size: 40px;
+    font-weight: 600;
+}
+.txt-2 h4{
+    font-size: 20px;
+    font-weight: 550;
+}
+.txt-2 h6{
+    font-size: 13px;
+    font-weight: 350;
+}
+
+.b-3{
+    color: rgb(57, 60, 65);
+    font-size: 14px;
+    font-weight: 550;
+}
+.section-3{
+    background-image: url(images/3rd-tesla.jpg);
+    width: 100vw;
+    height: 100vh;
+    background-repeat: no-repeat;
+    background-size: cover;
+    display: flex;
+   
+    flex-direction: column;
+    align-items: center;
+}
+.txt-3{
+    height: 70%;
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    margin-bottom: 150px;
+}
+.txt-3 h1{
+    font-size: 40px;
+    font-weight: 600;
+}
+.txt-3 h4{
+    font-size: 20px;
+    font-weight: 550;
+}
+.txt-3 h6{
+    font-size: 13px;
+    font-weight: 350;
+}
+.third-button{
+    height: 50%;
+    width: 35%;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+
+}
+.third-button button{
+    height: 40px;
+    width: 255px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border: none;
+    border-radius: 3px;
+    margin-bottom: 26px;
+    cursor: pointer;
+}
+.b-6{
+    background: rgba(23, 26, 32, 0.65);
+    color: white;
+    font-weight: 550;
+    font-size: 14px;
+   
+}
+.b-5{
+    color: rgb(57, 60, 65);
+    font-size: 14px;
+    font-weight: 550;
+}
+
+
+.section-4{
+    background-image: url(images/4th-tesla.jpg);
+    width: 100vw;
+    height: 100vh;
+    background-repeat: no-repeat;
+    background-size: cover;
+    display: flex;
+   
+    flex-direction: column;
+    align-items: center;
+}
+
+.txt-4{
+    height: 70%;
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    margin-bottom: 150px;
+}
+.txt-4 h1{
+    font-size: 40px;
+    font-weight: 600;
+}
+.txt-4 h4{
+    font-size: 20px;
+    font-weight: 550;
+}
+.txt-4 h6{
+    font-size: 13px;
+    font-weight: 350;
+}
+.fourth-button{
+    height: 50%;
+    width: 35%;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+
+}
+.fourth-button button{
+    height: 40px;
+    width: 255px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border: none;
+    border-radius: 3px;
+    margin-bottom: 26px;
+    cursor: pointer;
+}
+
+.b-7{
+    color: rgb(57, 60, 65);
+    font-size: 14px;
+    font-weight: 550;
+}
+.b-8{
+    background: rgba(23, 26, 32, 0.65);
+    color: white;
+    font-weight: 550;
+    font-size: 14px;
+   
+}
+.section-5{
+    background-image: url(images/cyber-truck.jpg);
+    width: 100vw;
+    height: 100vh;
+    background-repeat: no-repeat;
+    background-size: cover;
+    display: flex;
+   
+    flex-direction: column;
+    align-items: center;
+}
+.txt-5{
+    width: 100%;
+    height: 50%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.txt-5 img{
+    width: 458px;
+    height: 44%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    
+}
+.fifth-button{
+    height: 30%;
+    width: 35%;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin-top: 160px;
+
+}
+.fifth-button button{
+    height: 40px;
+    width: 255px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-bottom: 50px;
+    border: none;
+    cursor: pointer;
+   
+}
+
+.b-9{
+    background: rgba(17, 17, 17, 0.95);
+    color: rgb(162, 163, 165);
+    font-size: 12px;
+    font-weight: 550;
+    letter-spacing: 1.5PX;
+}
+.b-10{
+    background: rgba(17, 17, 17, 0.95);
+    color: rgb(162, 163, 165);
+    letter-spacing: 1.5px;
+    font-weight: 550;
+    font-size: 12px;
+   
+}
+.section-6{
+    background-image: url(images/solar-last.jpg);
+    width: 100vw;
+    height: 100vh;
+    background-repeat: no-repeat;
+    background-size: cover;
+    display: flex;
+   
+    flex-direction: column;
+    align-items: center;
+}
+.txt-6{
+    height: 45%;
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    
+   
+}
+.txt-6 h1{
+    font-size: 42px;
+    font-weight: 600;
+    color: white;
+}
+
+.txt-6 a{
+    font-weight: 450;
+    color: white;
+    font-size: 15px;
+}
+.sixth-button{
+    height: 50%;
+    width: 35%;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin-top: 47px;
+
+}
+.sixth-button button{
+    height: 40px;
+    width: 255px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border: none;
+    border-radius: 3px;
+    margin-bottom: -100px;
+    cursor: pointer;
+}
+.b-12{
+    background: rgba(23, 26, 32, 0.5);
+    color: white;
+    font-weight: 550;
+    font-size: 14px;
+   
+}
+.b-11{
+    background-color: rgba(244, 244, 244, 0.8);
+    color: rgb(57, 60, 65);
+    font-size: 14px;
+    font-weight: 550;
+}
+.section-7{
+    background-image: url(images/solar-roof.jpg);
+    width: 100vw;
+    height: 100vh;
+    background-repeat: no-repeat;
+    background-size: cover;
+    display: flex;
+   
+    flex-direction: column;
+    align-items: center;
+}
+.txt-7{
+    height: 45%;
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    
+   
+}
+.txt-7 h1{
+    font-size: 42px;
+    font-weight: 600;
+    color: black;
+}
+
+.txt-7 h5{
+    font-weight: 450;
+    color: black;
+    font-size: 15px;
+}
+.seventh-button{
+    height: 50%;
+    width: 35%;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin-top: 47px;
+
+}
+.seventh-button button{
+    height: 40px;
+    width: 255px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border: none;
+    border-radius: 3px;
+    margin-bottom: -100px;
+    cursor: pointer;
+}
+.b-14{
+    background: rgba(23, 26, 32, 0.5);
+    color: white;
+    font-weight: 550;
+    font-size: 14px;
+   
+}
+.b-13{
+    background-color: rgba(244, 244, 244, 0.8);
+    color: rgb(57, 60, 65);
+    font-size: 14px;
+    font-weight: 550;
+}
+.section-8{
+    background-image: url(images/power\ wall.jpg);
+    width: 100vw;
+    height: 100vh;
+    background-repeat: no-repeat;
+    background-size: cover;
+    display: flex;
+   
+    flex-direction: column;
+    align-items: center;
+}
+.txt-8{
+    height: 45%;
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    
+   
+}
+.txt-8 h1{
+    font-size: 42px;
+    font-weight: 600;
+    color: black;
+}
+.eight-button{
+    height: 50%;
+    width: 35%;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin-top: 47px;
+
+}
+.eight-button button{
+    height: 40px;
+    width: 255px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border: none;
+    border-radius: 3px;
+    margin-bottom: -100px;
+    cursor: pointer;
+}
+.b-16{
+    background: rgba(23, 26, 32, 0.5);
+    color: white;
+    font-weight: 550;
+    font-size: 14px;
+   
+}
+.b-15{
+    background-color: rgba(244, 244, 244, 0.8);
+    color: rgb(57, 60, 65);
+    font-size: 14px;
+    font-weight: 550;
+}
+.section-9{
+    background-image: url(images/assecories.jpg);
+    width: 100vw;
+    height: 100vh;
+    background-repeat: no-repeat;
+    background-size: cover;
+    display: flex;
+   
+    flex-direction: column;
+    align-items: center;
+}
+.txt-9{
+    height: 43%;
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    
+   
+}
+.txt-9 h1{
+    font-size: 42px;
+    font-weight: 600;
+    color: black;
+}
+.nine-button{
+    height: 50%;
+    width: 35%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-top: 47px;
+
+}
+.nine-button button{
+    height: 40px;
+    width: 255px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border: none;
+    border-radius: 3px;
+    margin-bottom: -100px;
+    cursor: pointer;
+}
+.b-17{
+    background-color: white;
+    color: rgb(57, 60, 65);
+    font-size: 14px;
+    font-weight: 550;
+}
+.foot-1{
+    width: 100%;
+    height: 335px;
+    background: #000;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+.txt-10{
+    height: 65%;
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-evenly;
+    color: white;
+    font-size: 13px;
+    background-color: black;
+    
+}
+.txt-10 a{
+    color: white;
+    font-weight: 550;
+    font-size: 12.5px;
+}
+.txt-10 p{
+    font-weight: 600;
+    font-size: 12px;
+    color: rgb(208, 209, 210);
+}
+
+.txt-11{
+    width: 38%;
+    height: 62px;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+   
+    font-size: 12px;
+    color: white;
+   
+    
+}
+.txt-11 a{
+    color: rgb(208, 209, 210);
+    font-weight: 550;
+    text-decoration: none;
+    font-size: 12.5px;
+}
